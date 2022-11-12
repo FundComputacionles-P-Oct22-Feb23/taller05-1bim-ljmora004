@@ -1,0 +1,19 @@
+01. Inicio
+02. descripcion, x(30)[{a-z}, {A-Z}, {BS}]
+03. cantidad, i[0,n]
+04. precioUnidad, d[0,n]
+05. descuento <-- 15
+06. valorPagar, d[0,n]
+07. << "Ingrese la descripción del producto"
+08. >> descripcion
+09. << "Ingrese la cantidad de productos"
+10. >> cantidad
+11. << "Ingrese el precio por unidad"
+12. >> precioUnidad
+13. valorPagar <-- precioUnidad * cantidad
+14. Si cantidad > 50 entonces
+15.   descuento <-- (valorPagar * descuento)/100
+16.   valorPagar <-- valorPagar - descuento
+17. Fin Si
+18. << "El costo del pedido es: " + valorPagar
+19. Fin

@@ -1,0 +1,19 @@
+1. Inicio
+2. costoKilovatio, d[0,n]
+3. consumo, d[0,n]
+4. edad, i[0,n]
+5. descuento <-- 10
+6. valorPagar, d[0,n]
+7. << "Ingrese el costo kilovatio/hora: "
+8. >> costoKilovatio
+9. << "Ingrese el consumo mensual: "
+10. >> consumo
+11. << "Ingrese su edad: " 
+12. >> edad
+13. valorPagar <-- costoKilovatio * consumo
+14. Si edad > 65 entonces
+15.   descuento <-- (valorPagar * descuento)/100
+16.   valorPagar <-- valorPagar - descuento
+17. Fin Si
+18. << "El costo de la planilla de luz es: " + valorPagar
+19. Fin
